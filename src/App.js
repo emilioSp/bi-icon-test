@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { Icon } from 'design-react-kit';
 import './App.css';
 
 function App() {
@@ -7,16 +8,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Test bootstrap italia icon
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Icon
+          color="white"
+          icon="it-tool"
+          padding={false}
+          size="lg"
+        />
       </header>
     </div>
   );
